@@ -113,7 +113,7 @@ class _NewExpenseState extends State<NewExpense> {
                   children: [
                     Text(
                       _selectedDate == null
-                          ? 'Engin gögn valin'
+                          ? 'Engin dagsetning valin'
                           : formatter.format(_selectedDate!),
                     ),
                     IconButton(
